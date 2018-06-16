@@ -22,14 +22,12 @@ export default class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.paragraph}>
-          Change code in the editor and watch it change on your phone!
-          Save to get a shareable url.
+          划龍舟加油軟體
         </Text>
         <Button
-          title="Play a sound!"
+          title="加油！加油！加油！"
           onPress={this._handlePlaySoundAsync}
         />
-      
         <Card title="Local Modules">
           <AssetExample />
         </Card>
@@ -48,7 +46,7 @@ const styles = StyleSheet.create({
   },
   paragraph: {
     margin: 24,
-    fontSize: 18,
+    fontSize: 32,
     fontWeight: 'bold',
     textAlign: 'center',
     color: '#34495e',
